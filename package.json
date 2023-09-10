@@ -1,0 +1,20 @@
+{
+  "name": "punchassesment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "run": "node index.js",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "author": "Prakhar Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.10",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  }
+}
