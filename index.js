@@ -68,7 +68,7 @@ const processCommand = (input) => {
       break;
 
     case commands.EXIT:
-      readlineexi.close(); // Exit the readline interface
+      readline.close(); // Exit the readline interface
       break;
 
     case commands.SHOW:
