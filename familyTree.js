@@ -42,7 +42,7 @@ module.exports = {
       }
     }
   },
-  getRelation: (userName, relation) => {
+  getRelative: (userName, relation) => {
     if (userName in familyTree) {
       const person = familyTree[userName];
       if (!(relation in person.relationships)) {
